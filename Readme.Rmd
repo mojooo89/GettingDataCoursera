@@ -1,0 +1,29 @@
+---
+title: "Readme"
+output: html_document
+---
+
+#
+
+##About Coursera Course Project: Getting and Cleaning Data
+
+*Repository contains a general remarks about the work on the tidy.csv dataset included in this repository*
+
+##Original Data Set
+
+*The original dataset and indepth information can be found under:*
+  + https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+  + http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+  
+
+##Data Transformation Script 
+
+*A script to perform the following operations on the original datasets and create the tidy.csv dataset has been created:*
+  + Merges the training and the test sets to create one data set.
+  + Extracts only the measurements on the mean and standard deviation for each measurement.
+  + Uses descriptive activity names to name the activities in the data set
+  + Appropriately labels the data set with descriptive variable names.
+  + From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+** The script is named run_analysis.R and can be found within this directory, it also includes comments and further explanation**
+
